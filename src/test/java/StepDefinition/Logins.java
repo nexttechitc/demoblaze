@@ -1,17 +1,21 @@
 package StepDefinition;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 
 import com.demoBlazeTest.PageAction.HomePageActions;
 import com.demoBlazeTest.PageAction.LoginPageActions;
 import com.demoBlazeTest.PageAction.ProfilePageActions;
 import com.demoBlazeTest.PageLocator.LoginPageLocators;
 import com.demoBlazeTest.Utility.Base_Parent;
+import com.demoBlazeTest.Utility.LoginTest;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+
 
 public class Logins extends Base_Parent{
 	
@@ -19,10 +23,17 @@ public class Logins extends Base_Parent{
 	LoginPageActions loginPageActions = new LoginPageActions();
 	ProfilePageActions profilePageActions = new ProfilePageActions();
 	LoginPageLocators loginPageLocators = new LoginPageLocators();
+
+	Logger log = Logger.getLogger(LoginTest.class);
+	
 	
 	@Given("^Launch Application$")
 	public void launch_Application() throws Throwable {
 		URLLaunch();
+		log.info("Lunching URL");
+		
+	
+		
 	}
 
 	@Then("^Click Login Link$")

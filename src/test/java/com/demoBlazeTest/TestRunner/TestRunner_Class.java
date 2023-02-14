@@ -10,7 +10,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(features = {"src/test/resources/AllFeature"},
 plugin = {"json:target/cucumber.json"},
-glue = "StepDefinition",tags = {"@Test"})
+glue = "StepDefinition",tags = {"@Test2"})
 public class TestRunner_Class extends AbstractTestNGCucumberTests{
 
 	@BeforeTest
