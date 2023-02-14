@@ -4,80 +4,6 @@
     "elements": [
       {
         "line": 4,
-        "name": "Verify Video is displayed in About us page",
-        "description": "",
-        "id": "this-feature-is-to-verify-all-the-about-us-page-functionality;verify-video-is-displayed-in-about-us-page",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 565479900,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Launch Application",
-            "match": {
-              "location": "Logins.launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 67523300,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Verify About us Link is displayed",
-            "match": {
-              "location": "HomePage.verify_About_us_Link_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 109396200,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Click About us Link",
-            "match": {
-              "location": "HomePage.click_About_us_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 771441500,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Verify Video is displayed",
-            "match": {
-              "location": "AboutUsPage.verify_Video_is_displayed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 3,
-            "name": "@Test"
-          }
-        ]
-      }
-    ],
-    "name": "This feature is to verify all the About us Page functionality",
-    "description": "",
-    "id": "this-feature-is-to-verify-all-the-about-us-page-functionality",
-    "keyword": "Feature",
-    "uri": "AboutUsPage.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 4,
         "name": "Verify Pic Lable is displayed in Cart Page",
         "description": "",
         "id": "this-feature-is-to-verify-all-the-cart-page-functionality;verify-pic-lable-is-displayed-in-cart-page",
@@ -86,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 152370700,
+              "duration": 1811372700,
               "status": "passed"
             },
             "line": 5,
@@ -98,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 217309300,
+              "duration": 863480300,
               "status": "passed"
             },
             "line": 6,
@@ -110,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 49030200,
+              "duration": 58803400,
               "status": "passed"
             },
             "line": 7,
@@ -124,7 +50,7 @@
         "tags": [
           {
             "line": 3,
-            "name": "@Test"
+            "name": "@Test2"
           }
         ]
       },
@@ -138,7 +64,7 @@
         "steps": [
           {
             "result": {
-              "duration": 92675400,
+              "duration": 86777200,
               "status": "passed"
             },
             "line": 11,
@@ -150,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 196089500,
+              "duration": 101590300,
               "status": "passed"
             },
             "line": 12,
@@ -162,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 71043400,
+              "duration": 35939000,
               "status": "passed"
             },
             "line": 13,
@@ -176,7 +102,7 @@
         "tags": [
           {
             "line": 9,
-            "name": "@Test"
+            "name": "@Test2"
           }
         ]
       },
@@ -190,7 +116,7 @@
         "steps": [
           {
             "result": {
-              "duration": 92973100,
+              "duration": 75717900,
               "status": "passed"
             },
             "line": 17,
@@ -202,7 +128,7 @@
           },
           {
             "result": {
-              "duration": 204692000,
+              "duration": 96689100,
               "status": "passed"
             },
             "line": 18,
@@ -214,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 59446600,
+              "duration": 27068300,
               "status": "passed"
             },
             "line": 19,
@@ -228,7 +154,7 @@
         "tags": [
           {
             "line": 15,
-            "name": "@Test"
+            "name": "@Test2"
           }
         ]
       },
@@ -242,7 +168,7 @@
         "steps": [
           {
             "result": {
-              "duration": 134119800,
+              "duration": 84031400,
               "status": "passed"
             },
             "line": 23,
@@ -254,7 +180,7 @@
           },
           {
             "result": {
-              "duration": 212281000,
+              "duration": 110841400,
               "status": "passed"
             },
             "line": 24,
@@ -266,7 +192,7 @@
           },
           {
             "result": {
-              "duration": 58323400,
+              "duration": 37102000,
               "status": "passed"
             },
             "line": 25,
@@ -280,7 +206,7 @@
         "tags": [
           {
             "line": 21,
-            "name": "@Test"
+            "name": "@Test2"
           }
         ]
       },
@@ -294,7 +220,7 @@
         "steps": [
           {
             "result": {
-              "duration": 105413500,
+              "duration": 72510300,
               "status": "passed"
             },
             "line": 29,
@@ -306,7 +232,7 @@
           },
           {
             "result": {
-              "duration": 123087800,
+              "duration": 105515800,
               "status": "passed"
             },
             "line": 30,
@@ -318,7 +244,7 @@
           },
           {
             "result": {
-              "duration": 62918400,
+              "duration": 27526300,
               "status": "passed"
             },
             "line": 31,
@@ -332,111 +258,7 @@
         "tags": [
           {
             "line": 27,
-            "name": "@Test"
-          }
-        ]
-      },
-      {
-        "line": 34,
-        "name": "Verify About us Label is displayed in Cart Page",
-        "description": "",
-        "id": "this-feature-is-to-verify-all-the-cart-page-functionality;verify-about-us-label-is-displayed-in-cart-page",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 126410000,
-              "status": "passed"
-            },
-            "line": 35,
-            "name": "Launch Application",
-            "match": {
-              "location": "Logins.launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 228981600,
-              "status": "passed"
-            },
-            "line": 36,
-            "name": "Click Cart Link",
-            "match": {
-              "location": "HomePage.click_Cart_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 69779900,
-              "status": "passed"
-            },
-            "line": 37,
-            "name": "Verify About us Label is displayed in Cart Page",
-            "match": {
-              "location": "CartPage.verify_About_us_Label_is_displayed_in_Cart_Page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 33,
-            "name": "@Test"
-          }
-        ]
-      },
-      {
-        "line": 40,
-        "name": "Verify Get in Touch Label is displayed in Cart Page",
-        "description": "",
-        "id": "this-feature-is-to-verify-all-the-cart-page-functionality;verify-get-in-touch-label-is-displayed-in-cart-page",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 92106600,
-              "status": "passed"
-            },
-            "line": 41,
-            "name": "Launch Application",
-            "match": {
-              "location": "Logins.launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 168798600,
-              "status": "passed"
-            },
-            "line": 42,
-            "name": "Click Cart Link",
-            "match": {
-              "location": "HomePage.click_Cart_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 124278400,
-              "status": "passed"
-            },
-            "line": 43,
-            "name": "Verify Get in Touch Label is displayed in Cart Page",
-            "match": {
-              "location": "CartPage.verify_Get_in_Touch_Label_is_displayed_in_Cart_Page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 39,
-            "name": "@Test"
+            "name": "@Test2"
           }
         ]
       }
@@ -451,692 +273,6 @@
     "line": 1,
     "elements": [
       {
-        "line": 4,
-        "name": "Verify Contact Email textBox is displayed in Contact Page",
-        "description": "",
-        "id": "this-feature-is-to-verify-all-the-contact-page-functionality;verify-contact-email-textbox-is-displayed-in-contact-page",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 84040600,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Launch Application",
-            "match": {
-              "location": "Logins.launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 82489000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Click Contact Link",
-            "match": {
-              "location": "HomePage.click_Contact_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 673044900,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Verify Contact Email textBox is displayed in Contact Page",
-            "match": {
-              "location": "ContactPage.verify_Contact_Email_textBox_is_displayed_in_Contact_Page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 3,
-            "name": "@Test"
-          }
-        ]
-      },
-      {
-        "line": 10,
-        "name": "Verify Contact Name textBox is displayed in Contact Page",
-        "description": "",
-        "id": "this-feature-is-to-verify-all-the-contact-page-functionality;verify-contact-name-textbox-is-displayed-in-contact-page",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 109880400,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "Launch Application",
-            "match": {
-              "location": "Logins.launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 82450200,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "Click Contact Link",
-            "match": {
-              "location": "HomePage.click_Contact_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 635021200,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Verify Contact Name textBox is displayed in Contact Page",
-            "match": {
-              "location": "ContactPage.verify_Contact_Name_textBox_is_displayed_in_Contact_Page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 9,
-            "name": "@Test"
-          }
-        ]
-      },
-      {
-        "line": 16,
-        "name": "Verify message textBox is displayed in Contact Page",
-        "description": "",
-        "id": "this-feature-is-to-verify-all-the-contact-page-functionality;verify-message-textbox-is-displayed-in-contact-page",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 97053200,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Launch Application",
-            "match": {
-              "location": "Logins.launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 65776500,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "Click Contact Link",
-            "match": {
-              "location": "HomePage.click_Contact_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 630239700,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "Verify message textBox is displayed in Contact Page",
-            "match": {
-              "location": "ContactPage.verify_message_textBox_is_displayed_in_Contact_Page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 15,
-            "name": "@Test"
-          }
-        ]
-      },
-      {
-        "line": 22,
-        "name": "Verify Send Message button is working fine in Contact Page",
-        "description": "",
-        "id": "this-feature-is-to-verify-all-the-contact-page-functionality;verify-send-message-button-is-working-fine-in-contact-page",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 91235500,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "Launch Application",
-            "match": {
-              "location": "Logins.launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 78489000,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "Click Contact Link",
-            "match": {
-              "location": "HomePage.click_Contact_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 486114500,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "Enter Contact Name Contact Email Message and click Send Message button in Contact Page",
-            "match": {
-              "location": "ContactPage.enter_Contact_Name_Contact_Email_Message_and_click_Send_Message_button_in_Contact_Page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 21,
-            "name": "@Test"
-          }
-        ]
-      }
-    ],
-    "name": "This feature is to verify all the Contact Page functionality",
-    "description": "",
-    "id": "this-feature-is-to-verify-all-the-contact-page-functionality",
-    "keyword": "Feature",
-    "uri": "ContactPage.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 4,
-        "name": "Verify Home Link is displayed",
-        "description": "",
-        "id": "this-feature-is-to-verify-all-the-homepage-functionality;verify-home-link-is-displayed",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 35429000,
-              "error_message": "org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Thanks for the message!!}\n  (Session info: chrome\u003d104.0.5112.81): Thanks for the message!!\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-3ROKAB7\u0027, ip: \u0027192.168.1.167\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\nextt\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7e1f10562bdb8e1020f4d1a5cd80b16b\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)\r\n\tat com.demoBlazeTest.Utility.Base_Parent.URLLaunch(Base_Parent.java:47)\r\n\tat StepDefinition.Logins.launch_Application(Logins.java:25)\r\n\tat ✽.Given Launch Application(HomePage.feature:5)\r\n",
-              "status": "failed"
-            },
-            "line": 5,
-            "name": "Launch Application",
-            "match": {
-              "location": "Logins.launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "Verify Home Link is displayed",
-            "match": {
-              "location": "HomePage.verify_Home_Link_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 7,
-            "name": "Click Home Link",
-            "match": {
-              "location": "HomePage.click_Home_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 8,
-            "name": "Verify Home Link is enabled",
-            "match": {
-              "location": "HomePage.verify_Home_Link_is_enabled()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 3,
-            "name": "@Test"
-          }
-        ]
-      },
-      {
-        "line": 11,
-        "name": "Verify Contact Link is displayed",
-        "description": "",
-        "id": "this-feature-is-to-verify-all-the-homepage-functionality;verify-contact-link-is-displayed",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 182470600,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "Launch Application",
-            "match": {
-              "location": "Logins.launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 85423700,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Verify Contact Link is displayed",
-            "match": {
-              "location": "HomePage.verify_Contact_Link_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 79406700,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Click Contact Link",
-            "match": {
-              "location": "HomePage.click_Contact_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 690936800,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "Verify Contact Link is enabled",
-            "match": {
-              "location": "HomePage.verify_Contact_Link_is_enabled()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 10,
-            "name": "@Test"
-          }
-        ]
-      },
-      {
-        "line": 18,
-        "name": "Verify About us Link is displayed",
-        "description": "",
-        "id": "this-feature-is-to-verify-all-the-homepage-functionality;verify-about-us-link-is-displayed",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 84895500,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "Launch Application",
-            "match": {
-              "location": "Logins.launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 55801900,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "Verify About us Link is displayed",
-            "match": {
-              "location": "HomePage.verify_About_us_Link_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 70400900,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "Click About us Link",
-            "match": {
-              "location": "HomePage.click_About_us_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 673933800,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "Verify About us Link is enabled",
-            "match": {
-              "location": "HomePage.verify_About_us_Link_is_enabled()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 35700800,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "Verify About us Text is displayed",
-            "match": {
-              "location": "HomePage.verify_About_us_Text_is_displayed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 17,
-            "name": "@Test"
-          }
-        ]
-      },
-      {
-        "line": 26,
-        "name": "Verify Contact Link is displayed",
-        "description": "",
-        "id": "this-feature-is-to-verify-all-the-homepage-functionality;verify-contact-link-is-displayed",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 152986600,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "Launch Application",
-            "match": {
-              "location": "Logins.launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 53539700,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "Verify Contact Link is displayed",
-            "match": {
-              "location": "HomePage.verify_Contact_Link_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 62320200,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "Click Contact Link",
-            "match": {
-              "location": "HomePage.click_Contact_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 627465400,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "Verify Contact Link is enabled",
-            "match": {
-              "location": "HomePage.verify_Contact_Link_is_enabled()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 25,
-            "name": "@Test"
-          }
-        ]
-      },
-      {
-        "line": 33,
-        "name": "Verify Cart Link is displayed",
-        "description": "",
-        "id": "this-feature-is-to-verify-all-the-homepage-functionality;verify-cart-link-is-displayed",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 100263100,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "Launch Application",
-            "match": {
-              "location": "Logins.launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 61478400,
-              "status": "passed"
-            },
-            "line": 35,
-            "name": "Verify Cart Link is displayed",
-            "match": {
-              "location": "HomePage.verify_Cart_Link_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 179075100,
-              "status": "passed"
-            },
-            "line": 36,
-            "name": "Click Cart Link",
-            "match": {
-              "location": "HomePage.click_Cart_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 68874200,
-              "status": "passed"
-            },
-            "line": 37,
-            "name": "Verify Cart Link is enabled",
-            "match": {
-              "location": "HomePage.verify_Cart_Link_is_enabled()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 32,
-            "name": "@Test"
-          }
-        ]
-      },
-      {
-        "line": 40,
-        "name": "Verify Login Link is displayed",
-        "description": "",
-        "id": "this-feature-is-to-verify-all-the-homepage-functionality;verify-login-link-is-displayed",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 79194600,
-              "status": "passed"
-            },
-            "line": 41,
-            "name": "Launch Application",
-            "match": {
-              "location": "Logins.launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 92006100,
-              "status": "passed"
-            },
-            "line": 42,
-            "name": "Verify Login Link is displayed",
-            "match": {
-              "location": "HomePage.verify_Login_Link_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 55633300,
-              "status": "passed"
-            },
-            "line": 43,
-            "name": "Click Login Link",
-            "match": {
-              "location": "Logins.click_Login_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 669534400,
-              "status": "passed"
-            },
-            "line": 44,
-            "name": "Verify Login Link is enabled",
-            "match": {
-              "location": "HomePage.verify_Login_Link_is_enabled()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 39,
-            "name": "@Test"
-          }
-        ]
-      },
-      {
-        "line": 47,
-        "name": "Verify Sign up Link is displayed",
-        "description": "",
-        "id": "this-feature-is-to-verify-all-the-homepage-functionality;verify-sign-up-link-is-displayed",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 107151100,
-              "status": "passed"
-            },
-            "line": 48,
-            "name": "Launch Application",
-            "match": {
-              "location": "Logins.launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 53991300,
-              "status": "passed"
-            },
-            "line": 49,
-            "name": "Verify Sign up Link is displayed",
-            "match": {
-              "location": "HomePage.verify_Sign_up_Link_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 99596500,
-              "status": "passed"
-            },
-            "line": 50,
-            "name": "Click Sign up Link",
-            "match": {
-              "location": "HomePage.Click_Sign_up_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 662252000,
-              "status": "passed"
-            },
-            "line": 51,
-            "name": "Verify Sign up Link is enabled",
-            "match": {
-              "location": "HomePage.verify_Sign_up_Link_is_enabled()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 46,
-            "name": "@Test"
-          }
-        ]
-      }
-    ],
-    "name": "This feature is to verify all the HomePage functionality",
-    "description": "",
-    "id": "this-feature-is-to-verify-all-the-homepage-functionality",
-    "keyword": "Feature",
-    "uri": "HomePage.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
         "line": 6,
         "name": "Verify Username textBox is displayed",
         "description": "",
@@ -1146,7 +282,7 @@
         "steps": [
           {
             "result": {
-              "duration": 88731800,
+              "duration": 80657900,
               "status": "passed"
             },
             "line": 7,
@@ -1158,7 +294,7 @@
           },
           {
             "result": {
-              "duration": 72521400,
+              "duration": 52509600,
               "status": "passed"
             },
             "line": 8,
@@ -1170,7 +306,7 @@
           },
           {
             "result": {
-              "duration": 698308800,
+              "duration": 578091500,
               "status": "passed"
             },
             "line": 9,
@@ -1184,7 +320,7 @@
         "tags": [
           {
             "line": 5,
-            "name": "@Test"
+            "name": "@Test2"
           }
         ]
       },
@@ -1198,7 +334,7 @@
         "steps": [
           {
             "result": {
-              "duration": 118930300,
+              "duration": 406478300,
               "status": "passed"
             },
             "line": 13,
@@ -1210,7 +346,7 @@
           },
           {
             "result": {
-              "duration": 65623000,
+              "duration": 67633300,
               "status": "passed"
             },
             "line": 14,
@@ -1222,7 +358,7 @@
           },
           {
             "result": {
-              "duration": 693472100,
+              "duration": 595333000,
               "status": "passed"
             },
             "line": 15,
@@ -1236,7 +372,7 @@
         "tags": [
           {
             "line": 11,
-            "name": "@Test"
+            "name": "@Test2"
           }
         ]
       },
@@ -1250,7 +386,7 @@
         "steps": [
           {
             "result": {
-              "duration": 146744800,
+              "duration": 459545500,
               "status": "passed"
             },
             "line": 19,
@@ -1262,7 +398,7 @@
           },
           {
             "result": {
-              "duration": 74263300,
+              "duration": 60996600,
               "status": "passed"
             },
             "line": 20,
@@ -1274,7 +410,7 @@
           },
           {
             "result": {
-              "duration": 39709300,
+              "duration": 24710900,
               "status": "passed"
             },
             "line": 21,
@@ -1286,7 +422,7 @@
           },
           {
             "result": {
-              "duration": 15230858300,
+              "duration": 15152914600,
               "status": "passed"
             },
             "line": 22,
@@ -1298,7 +434,7 @@
           },
           {
             "result": {
-              "duration": 1129240300,
+              "duration": 2768534800,
               "status": "passed"
             },
             "line": 23,
@@ -1312,7 +448,7 @@
         "tags": [
           {
             "line": 17,
-            "name": "@Test"
+            "name": "@Test2"
           }
         ]
       }
@@ -1322,223 +458,5 @@
     "id": "this-feature-is-to-verify-all-the-login-functionality",
     "keyword": "Feature",
     "uri": "Logins.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 4,
-        "name": "Verify Username textBox is displayed in Signup Page",
-        "description": "",
-        "id": "this-feature-is-to-verify-all-the-signup-page-functionality;verify-username-textbox-is-displayed-in-signup-page",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 115625600,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Launch Application",
-            "match": {
-              "location": "Logins.launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 146018000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Click Sign up Link",
-            "match": {
-              "location": "HomePage.Click_Sign_up_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 658454300,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Verify Username textBox is displayed in Signup Page",
-            "match": {
-              "location": "SignUpPage.Verify_Username_textBox_is_displayed_in_Signup_Page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 3,
-            "name": "@Test"
-          }
-        ]
-      },
-      {
-        "line": 10,
-        "name": "Verify Password textBox is displayed in Signup Page",
-        "description": "",
-        "id": "this-feature-is-to-verify-all-the-signup-page-functionality;verify-password-textbox-is-displayed-in-signup-page",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 105588200,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "Launch Application",
-            "match": {
-              "location": "Logins.launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 20127348800,
-              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d104.0.5112.81)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-3ROKAB7\u0027, ip: \u0027192.168.1.167\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\nextt\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7e1f10562bdb8e1020f4d1a5cd80b16b\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat com.demoBlazeTest.PageAction.HomePageActions.clickSignUpButton(HomePageActions.java:127)\r\n\tat StepDefinition.HomePage.Click_Sign_up_Link(HomePage.java:116)\r\n\tat ✽.Then Click Sign up Link(SignUpPage.feature:12)\r\n",
-              "status": "failed"
-            },
-            "line": 12,
-            "name": "Click Sign up Link",
-            "match": {
-              "location": "HomePage.Click_Sign_up_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "Verify Password textBox is displayed in Signup Page",
-            "match": {
-              "location": "SignUpPage.verify_Password_textBox_is_displayed_in_Signup_Page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 9,
-            "name": "@Test"
-          }
-        ]
-      },
-      {
-        "line": 16,
-        "name": "Verify Sign up link is displayed in Signup Page",
-        "description": "",
-        "id": "this-feature-is-to-verify-all-the-signup-page-functionality;verify-sign-up-link-is-displayed-in-signup-page",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 171343300,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Launch Application",
-            "match": {
-              "location": "Logins.launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 147434100,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "Click Sign up Link",
-            "match": {
-              "location": "HomePage.Click_Sign_up_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 647446900,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "Verify Sign up Link is enabled",
-            "match": {
-              "location": "HomePage.verify_Sign_up_Link_is_enabled()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 15,
-            "name": "@Test"
-          }
-        ]
-      },
-      {
-        "line": 22,
-        "name": "Verify Password textBox is displayed in Signup Page",
-        "description": "",
-        "id": "this-feature-is-to-verify-all-the-signup-page-functionality;verify-password-textbox-is-displayed-in-signup-page",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 102887600,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "Launch Application",
-            "match": {
-              "location": "Logins.launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 20158343100,
-              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d104.0.5112.81)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-3ROKAB7\u0027, ip: \u0027192.168.1.167\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\nextt\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7e1f10562bdb8e1020f4d1a5cd80b16b\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat com.demoBlazeTest.PageAction.HomePageActions.clickSignUpButton(HomePageActions.java:127)\r\n\tat StepDefinition.HomePage.Click_Sign_up_Link(HomePage.java:116)\r\n\tat ✽.Then Click Sign up Link(SignUpPage.feature:24)\r\n",
-              "status": "failed"
-            },
-            "line": 24,
-            "name": "Click Sign up Link",
-            "match": {
-              "location": "HomePage.Click_Sign_up_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 25,
-            "name": "Type username and password and click signup button",
-            "match": {
-              "location": "SignUpPage.type_username_and_password_and_click_signup_button()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 21,
-            "name": "@Test"
-          }
-        ]
-      }
-    ],
-    "name": "This feature is to verify all the SignUp Page functionality",
-    "description": "",
-    "id": "this-feature-is-to-verify-all-the-signup-page-functionality",
-    "keyword": "Feature",
-    "uri": "SignUpPage.feature"
   }
 ]

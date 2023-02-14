@@ -1,39 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9210" started-at="2022-08-11T10:21:57 CDT" finished-at="2022-08-11T10:22:06 CDT">
+  <suite started-at="2023-02-14T13:19:16 CST" name="Default suite" finished-at="2023-02-14T13:19:42 CST" duration-ms="25454">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@78e67e0a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@4b741d6d]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="9210" started-at="2022-08-11T10:21:57 CDT" finished-at="2022-08-11T10:22:06 CDT">
+    <test started-at="2023-02-14T13:19:16 CST" name="Default test" finished-at="2023-02-14T13:19:42 CST" duration-ms="25454">
       <class name="com.demoBlazeTest.TestRunner.TestRunner_Class">
-        <test-method status="PASS" signature="startURL()[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@78e67e0a]" name="startURL" is-config="true" duration-ms="2253" started-at="2022-08-11T10:21:57 CDT" finished-at="2022-08-11T10:21:59 CDT">
+        <test-method is-config="true" signature="startURL()[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@4b741d6d]" started-at="2023-02-14T13:19:16 CST" name="startURL" finished-at="2023-02-14T13:19:17 CST" duration-ms="1028" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startURL -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@78e67e0a]" name="setUpClass" is-config="true" duration-ms="195" started-at="2022-08-11T10:21:59 CDT" finished-at="2022-08-11T10:21:59 CDT">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@4b741d6d]" started-at="2023-02-14T13:19:17 CST" name="setUpClass" finished-at="2023-02-14T13:19:18 CST" duration-ms="210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@78e67e0a]" name="feature" duration-ms="5985" started-at="2022-08-11T10:21:59 CDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-08-11T10:22:05 CDT">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@4b741d6d]" started-at="2023-02-14T13:19:18 CST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-02-14T13:19:21 CST" duration-ms="3666" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[This feature is to verify all the HomePage functionality]]>
+                <![CDATA[This feature is to verify all the Cart Page functionality]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@78e67e0a]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2022-08-11T10:22:05 CDT" finished-at="2022-08-11T10:22:05 CDT">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@4b741d6d]" started-at="2023-02-14T13:19:21 CST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-02-14T13:19:42 CST" duration-ms="20257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This feature is to verify all the login functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@4b741d6d]" started-at="2023-02-14T13:19:42 CST" name="tearDownClass" finished-at="2023-02-14T13:19:42 CST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="closeURL()[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@78e67e0a]" name="closeURL" is-config="true" duration-ms="656" started-at="2022-08-11T10:22:05 CDT" finished-at="2022-08-11T10:22:06 CDT">
+        <test-method is-config="true" signature="closeURL()[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@4b741d6d]" started-at="2023-02-14T13:19:42 CST" name="closeURL" finished-at="2023-02-14T13:19:42 CST" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeURL -->

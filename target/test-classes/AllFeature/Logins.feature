@@ -2,19 +2,19 @@ Feature: This feature is to verify all the login functionality
 
 
 
-@Test
+@Test2
 Scenario: Verify Username textBox is displayed
 Given Launch Application
 Then Click Login Link
 Then Verify Username textBox is displayed
 
-@Test
+@Test2
 Scenario: Verify Password textBox is displayed
 Given Launch Application
 Then Click Login Link
 Then Verify Password textBox is displayed
 
-@Test
+@Test2
 Scenario: Verify User Login
 Given Launch Application
 Then Click Login Link
