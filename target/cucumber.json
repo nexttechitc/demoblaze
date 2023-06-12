@@ -3,276 +3,6 @@
     "line": 1,
     "elements": [
       {
-        "line": 4,
-        "name": "Verify Pic Lable is displayed in Cart Page",
-        "description": "",
-        "id": "this-feature-is-to-verify-all-the-cart-page-functionality;verify-pic-lable-is-displayed-in-cart-page",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1811372700,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Launch Application",
-            "match": {
-              "location": "Logins.launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 863480300,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Click Cart Link",
-            "match": {
-              "location": "HomePage.click_Cart_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 58803400,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Verify Pic Lable is displayed in Cart Page",
-            "match": {
-              "location": "CartPage.verify_Pic_Lable_is_displayed_in_Cart_Page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 3,
-            "name": "@Test2"
-          }
-        ]
-      },
-      {
-        "line": 10,
-        "name": "Verify Title Lable is displayed in Cart Page",
-        "description": "",
-        "id": "this-feature-is-to-verify-all-the-cart-page-functionality;verify-title-lable-is-displayed-in-cart-page",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 86777200,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "Launch Application",
-            "match": {
-              "location": "Logins.launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 101590300,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "Click Cart Link",
-            "match": {
-              "location": "HomePage.click_Cart_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 35939000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Verify Title Lable is displayed in Cart Page",
-            "match": {
-              "location": "CartPage.verify_Title_Lable_is_displayed_in_Cart_Page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 9,
-            "name": "@Test2"
-          }
-        ]
-      },
-      {
-        "line": 16,
-        "name": "Verify Price Lable is displayed in Cart Page",
-        "description": "",
-        "id": "this-feature-is-to-verify-all-the-cart-page-functionality;verify-price-lable-is-displayed-in-cart-page",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 75717900,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Launch Application",
-            "match": {
-              "location": "Logins.launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 96689100,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "Click Cart Link",
-            "match": {
-              "location": "HomePage.click_Cart_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 27068300,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "Verify Price Lable is displayed in Cart Page",
-            "match": {
-              "location": "CartPage.verify_Price_Lable_is_displayed_in_Cart_Page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 15,
-            "name": "@Test2"
-          }
-        ]
-      },
-      {
-        "line": 22,
-        "name": "Verify Place Order button is displayed in Cart Page",
-        "description": "",
-        "id": "this-feature-is-to-verify-all-the-cart-page-functionality;verify-place-order-button-is-displayed-in-cart-page",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 84031400,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "Launch Application",
-            "match": {
-              "location": "Logins.launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 110841400,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "Click Cart Link",
-            "match": {
-              "location": "HomePage.click_Cart_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 37102000,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "Verify Place Order button is displayed in Cart Page",
-            "match": {
-              "location": "CartPage.verify_Place_Order_button_is_displayed_in_Cart_Page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 21,
-            "name": "@Test2"
-          }
-        ]
-      },
-      {
-        "line": 28,
-        "name": "Verify Place Order button is displayed in Cart Page",
-        "description": "",
-        "id": "this-feature-is-to-verify-all-the-cart-page-functionality;verify-place-order-button-is-displayed-in-cart-page",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 72510300,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "Launch Application",
-            "match": {
-              "location": "Logins.launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 105515800,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "Click Cart Link",
-            "match": {
-              "location": "HomePage.click_Cart_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 27526300,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "Verify Place Order button is displayed in Cart Page",
-            "match": {
-              "location": "CartPage.verify_Place_Order_button_is_displayed_in_Cart_Page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 27,
-            "name": "@Test2"
-          }
-        ]
-      }
-    ],
-    "name": "This feature is to verify all the Cart Page functionality",
-    "description": "",
-    "id": "this-feature-is-to-verify-all-the-cart-page-functionality",
-    "keyword": "Feature",
-    "uri": "CartPage.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
         "line": 6,
         "name": "Verify Username textBox is displayed",
         "description": "",
@@ -282,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 80657900,
+              "duration": 794354800,
               "status": "passed"
             },
             "line": 7,
@@ -294,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 52509600,
+              "duration": 111284899,
               "status": "passed"
             },
             "line": 8,
@@ -306,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 578091500,
+              "duration": 747581699,
               "status": "passed"
             },
             "line": 9,
@@ -320,7 +50,7 @@
         "tags": [
           {
             "line": 5,
-            "name": "@Test2"
+            "name": "@Sanity"
           }
         ]
       },
@@ -334,7 +64,7 @@
         "steps": [
           {
             "result": {
-              "duration": 406478300,
+              "duration": 172185500,
               "status": "passed"
             },
             "line": 13,
@@ -346,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 67633300,
+              "duration": 106436600,
               "status": "passed"
             },
             "line": 14,
@@ -358,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 595333000,
+              "duration": 717086300,
               "status": "passed"
             },
             "line": 15,
@@ -372,7 +102,7 @@
         "tags": [
           {
             "line": 11,
-            "name": "@Test2"
+            "name": "@Sanity"
           }
         ]
       },
@@ -386,7 +116,7 @@
         "steps": [
           {
             "result": {
-              "duration": 459545500,
+              "duration": 131443400,
               "status": "passed"
             },
             "line": 19,
@@ -398,7 +128,7 @@
           },
           {
             "result": {
-              "duration": 60996600,
+              "duration": 149569399,
               "status": "passed"
             },
             "line": 20,
@@ -410,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 24710900,
+              "duration": 40927700,
               "status": "passed"
             },
             "line": 21,
@@ -422,7 +152,7 @@
           },
           {
             "result": {
-              "duration": 15152914600,
+              "duration": 15234486399,
               "status": "passed"
             },
             "line": 22,
@@ -434,7 +164,7 @@
           },
           {
             "result": {
-              "duration": 2768534800,
+              "duration": 1039225299,
               "status": "passed"
             },
             "line": 23,
@@ -448,7 +178,7 @@
         "tags": [
           {
             "line": 17,
-            "name": "@Test2"
+            "name": "@Sanity"
           }
         ]
       }

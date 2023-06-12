@@ -6,7 +6,7 @@
       <class name="com.demoBlazeTest.TestRunner.TestRunner_Class">
         <methods>
           <include name="setUpClass"/>
-          <include name="feature" invocation-numbers="3"/>
+          <include name="feature"/>
           <include name="closeURL"/>
           <include name="tearDownClass"/>
           <include name="startURL"/>
