@@ -29,7 +29,7 @@ public class Base_Parent {
 		String allBrowser = prop.getProperty("Browser");
 		
 		if(allBrowser.equals("Chrome")) {
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\SeleniumDriver\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\SeleniumDriver3\\chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().pageLoadTimeout(TestData.pageLoadTimeout, TimeUnit.SECONDS);

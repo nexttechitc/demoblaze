@@ -2,23 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-25T20:05:36 CDT" name="Default suite" finished-at="2023-05-25T20:05:57 CDT" duration-ms="21292">
+  <suite started-at="2023-08-17T21:28:53 CDT" name="Default suite" finished-at="2023-08-17T21:29:15 CDT" duration-ms="22146">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@4b741d6d]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-05-25T20:05:36 CDT" name="Default test" finished-at="2023-05-25T20:05:57 CDT" duration-ms="21292">
+    <test started-at="2023-08-17T21:28:53 CDT" name="Default test" finished-at="2023-08-17T21:29:15 CDT" duration-ms="22146">
       <class name="com.demoBlazeTest.TestRunner.TestRunner_Class">
-        <test-method is-config="true" signature="startURL()[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@4b741d6d]" started-at="2023-05-25T20:05:36 CDT" name="startURL" finished-at="2023-05-25T20:05:37 CDT" duration-ms="1359" status="PASS">
+        <test-method is-config="true" signature="startURL()[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@4b741d6d]" started-at="2023-08-17T21:28:53 CDT" name="startURL" finished-at="2023-08-17T21:28:55 CDT" duration-ms="1815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startURL -->
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@4b741d6d]" started-at="2023-05-25T20:05:37 CDT" name="setUpClass" finished-at="2023-05-25T20:05:38 CDT" duration-ms="246" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@4b741d6d]" started-at="2023-08-17T21:28:55 CDT" name="setUpClass" finished-at="2023-08-17T21:28:55 CDT" duration-ms="294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@4b741d6d]" started-at="2023-05-25T20:05:38 CDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-05-25T20:05:57 CDT" duration-ms="19304" status="PASS">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@4b741d6d]" started-at="2023-08-17T21:28:56 CDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-08-17T21:29:15 CDT" duration-ms="19524" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,11 +29,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@4b741d6d]" started-at="2023-05-25T20:05:57 CDT" name="tearDownClass" finished-at="2023-05-25T20:05:57 CDT" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@4b741d6d]" started-at="2023-08-17T21:29:15 CDT" name="tearDownClass" finished-at="2023-08-17T21:29:15 CDT" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="closeURL()[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@4b741d6d]" started-at="2023-05-25T20:05:57 CDT" name="closeURL" finished-at="2023-05-25T20:05:57 CDT" duration-ms="241" status="PASS">
+        <test-method is-config="true" signature="closeURL()[pri:0, instance:com.demoBlazeTest.TestRunner.TestRunner_Class@4b741d6d]" started-at="2023-08-17T21:29:15 CDT" name="closeURL" finished-at="2023-08-17T21:29:15 CDT" duration-ms="311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeURL -->
